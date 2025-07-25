@@ -11,9 +11,11 @@ Store and search through all your LLM conversations from OpenAI, Anthropic, and 
 
 ## Quick Start
 
-1. **Setup**:
+1. **Install dependencies** (use virtual environment to avoid system conflicts):
    ```bash
-   python setup.py
+   python3 -m venv venv
+   source venv/bin/activate
+   pip install -r requirements.txt
    ```
 
 2. **Configure API Keys**:
